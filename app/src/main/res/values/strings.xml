@@ -5,7 +5,7 @@
     <string name="txtSenha">Senha</string>
     <string name="btnEntrar">ENTRAR</string>
     <string name="lblCadastrar">Caso não possua uma conta</string>
-    <string name="btnCadastrar">Cadastre-se</string>
+    <string name="btnCadastrar"><u>Cadastre-se</u></string>
     <string name="txtBemVindo">Bem vindo ao</string>
     <string name="txtSocialPet">Social Pet</string>
     <string name="txtApresentacao">Conecte-se a maior comunidade pet do Brasil</string>
@@ -33,5 +33,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Recomendados</string>
     <string name="title_notifications">Notificação</string>
+    <string name="ConfirmarSenha">Confirmar Senha</string>
+    <string name="labelCadastro">Cadastro</string>
 
 </resources>
