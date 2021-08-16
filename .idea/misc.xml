@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/btn_background.xml" value="0.1421875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_cadastro_email.xml" value="0.10945945945945947" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_email.xml" value="0.1421875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_senha.xml" value="0.1421875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/txt_background.xml" value="0.1421875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_splash_screen.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroPet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/imagedotopo"
+            style="@style/imgTopo"
+            android:layout_width="match_parent"
+            android:layout_height="173dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutCadastro"
+            android:layout_width="346dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imagedotopo">
+
+            <TextView
+                android:id="@+id/txtBemVindoCadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/txtBemVindo"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewCadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_condensed_light"
+                android:text="@string/txtSocialPet"
+                android:textColor="@color/black"
+                android:textSize="44sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewCadastro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/txtApresentacao"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/TxtNomeUsuario"
+            style="@style/textBox"
+
+            android:layout_marginTop="50dp"
+            android:autofillHints="AUTOFILL_HINT_USERNAME"
+            android:background="@drawable/txt_background"
+            android:drawableStart="@drawable/ic_cadastro_email"
+
+            android:elevation="10dp"
+            android:hint="@string/txtUsuario"
+            android:inputType="textPersonName"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutCadastro" />
+
+        <EditText
+            android:id="@+id/TxtEmailD"
+            style="@style/textBox"
+            android:autofillHints="AUTOFILL_HINT_USERNAME"
+            android:background="@drawable/txt_background"
+            android:drawableStart="@drawable/ic_email"
+
+            android:elevation="10dp"
+            android:hint="@string/txtEmail"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.75"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtNomeUsuario" />
+
+        <EditText
+            android:id="@+id/TxtSenhaUsuario"
+            style="@style/textBox"
+            android:layout_marginTop="24dp"
+            android:autofillHints="AUTOFILL_HINT_PASSWORD"
+            android:background="@drawable/txt_background"
+            android:drawableStart="@drawable/ic_senha"
+            android:elevation="10dp"
+
+            android:hint="@string/txtSenha"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtEmailD" />
+
+        <EditText
+            android:id="@+id/TxtConfirmarSenha"
+            style="@style/textBox"
+            android:layout_marginTop="24dp"
+            android:autofillHints="AUTOFILL_HINT_PASSWORD"
+            android:background="@drawable/txt_background"
+            android:drawableStart="@drawable/ic_senha"
+            android:elevation="10dp"
+
+            android:hint="@string/txtSenha"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtSenhaUsuario" />
+
+        <Button
+            android:id="@+id/BtnCriar"
+            style="@style/btnLoginCadastro"
+            android:layout_width="351dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="28dp"
+            android:elevation="8dp"
+            android:text="@string/btnCriar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

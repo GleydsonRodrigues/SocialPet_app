@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789748279565",
+    "project_id": "socialpet-fea3e",
+    "storage_bucket": "socialpet-fea3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789748279565:android:ded4a82c9934fefc4fe844",
+        "android_client_info": {
+          "package_name": "com.example.socialpet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789748279565-6vl21tuodj2nlp5aj9mkj0com6f4nl6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVil7U9O-tpizbXX6FxU_4T8Uxx0w0LpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789748279565-6vl21tuodj2nlp5aj9mkj0com6f4nl6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
