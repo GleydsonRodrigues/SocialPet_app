@@ -69,7 +69,7 @@
             android:autofillHints="AUTOFILL_HINT_USERNAME"
             android:background="@drawable/txt_background"
             android:drawableStart="@drawable/ic_email"
-            android:drawableLeft="@drawable/ic_email"
+
             android:elevation="10dp"
             android:hint="@string/txtEmail"
             android:inputType="textEmailAddress"
@@ -84,7 +84,6 @@
             android:autofillHints="AUTOFILL_HINT_PASSWORD"
             android:background="@drawable/txt_background"
             android:drawableStart="@drawable/ic_senha"
-            android:drawableLeft="@drawable/ic_senha"
             android:elevation="10dp"
             android:hint="@string/txtSenha"
             android:inputType="textPassword"
@@ -114,20 +113,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12dp"
                 android:text="@string/lblCadastrar"
-                app:layout_constraintBottom_toTopOf="@+id/BtnCadastrar"
+                app:layout_constraintBottom_toTopOf="@+id/lblCadastro"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent" />
 
-            <Button
-                android:id="@+id/BtnCadastrar"
-                android:layout_width="164dp"
-                android:layout_height="42dp"
+            <TextView
+                android:id="@+id/lblCadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="16dp"
                 android:text="@string/btnCadastrar"
+                android:textColor="#03A9F4"
+                android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent" />
 
 
