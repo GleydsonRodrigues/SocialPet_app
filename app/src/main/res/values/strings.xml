@@ -1,0 +1,37 @@
+<resources>
+    <!--tela de login-->
+    <string name="app_name">SocialPet</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtSenha">Senha</string>
+    <string name="btnEntrar">ENTRAR</string>
+    <string name="lblCadastrar">Caso não possua uma conta</string>
+    <string name="btnCadastrar">Cadastre-se</string>
+    <string name="txtBemVindo">Bem vindo ao</string>
+    <string name="txtSocialPet">Social Pet</string>
+    <string name="txtApresentacao">Conecte-se a maior comunidade pet do Brasil</string>
+
+    <!--tela de cadastro-->
+    <string name="lblTipoConta">Qual o seu tipo de conta?</string>
+    <string name="btnCadastrarPet">Pet</string>
+    <string name="btnCadastrarProfi">Profissional</string>
+    <string name="txtUsuario">Insira seu Usuário</string>
+
+    <!--tela de cadastro Pet-->
+    <string name="txtNomeUsuario">Nome do dono</string>
+    <string name="txtEmailD">Email do dono</string>
+    <string name="txtConfSenha">Confirmar Senha</string>
+    <string name="btnCriar">Criar</string>
+
+    <!--mensagens tela de cadastro-->
+    <string name="Titulo_erro">Erro</string>
+    <string name="action_ok">OK</string>
+    <string name="mensagem_validaçãoDeCampos">Campo ou Campos vazios</string>
+    <string name="mensagem_Email_invalido">Email invalido</string>
+    <string name="mensagem_senhasDiferentes">Senha e confirmar senha não sao iguais</string>
+    <string name="Titulo_Aviso">Aviso</string>
+    <string name="title_activity_navegacao">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Recomendados</string>
+    <string name="title_notifications">Notificação</string>
+
+</resources>
