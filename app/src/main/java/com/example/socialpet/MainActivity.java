@@ -1,5 +1,6 @@
 package com.example.socialpet;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,6 +8,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.Objects;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,13 +32,48 @@ public class MainActivity extends AppCompatActivity {
 
 
         btnEntrar.setOnClickListener(view -> {
-            String nome = txtEmail.getText().toString();
+            String email = txtEmail.getText().toString();
             String senha = txtSenha.getText().toString();
 
+            if(email.isEmpty() || senha.isEmpty()){
 
+                Toast.makeText(getBaseContext(),"Preencha todos os campos", Toast.LENGTH_SHORT).show();
+            }else{
+                autenticicarUsuario();
+            }
         });
+
     }
 
+    private void autenticicarUsuario(){
+
+        String email = txtEmail.getText().toString();
+        String senha = txtSenha.getText().toString();
+
+        FirebaseAuth.getInstance().signInWithEmailAndPassword(email,senha).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+
+                if (task.isSuccessful()){
+
+//                    Toast.makeText(getBaseContext(),"Logado com sucesso", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getBaseContext(),Navegacao.class));
+                        
+                }else{
+
+                    String erro;
+                    try {
+                        throw Objects.requireNonNull(task.getException());
+                    }catch (Exception e){
+                        erro = "E-mail não encontrado";
+                    }
+                    Toast.makeText(getBaseContext(),erro,Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
+    }
     public void iniciarComponentes(){
 
         txtEmail = findViewById(R.id.TxtEmail);

@@ -11,6 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SocialPet">
         <activity
+            android:name=".Navegacao"
+            android:exported="true"
+            android:label="@string/title_activity_navegacao" />
+        <activity
             android:name=".telaCadastro"
             android:exported="true" />
         <activity
