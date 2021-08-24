@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.216796875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/btn_background.xml" value="0.1421875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_cadastro_email.xml" value="0.10945945945945947" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_email.xml" value="0.1421875" />
@@ -13,6 +14,7 @@
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_splash_screen.xml" value="0.23097826086956522" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.22" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_dashboard.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2046875" />
       </map>
     </option>
   </component>

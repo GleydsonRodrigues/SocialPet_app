@@ -35,7 +35,9 @@ public class telaCadastro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_cadastro);
 
+        getSupportActionBar().hide();
         IniciarComponentes();
+
 
         btnCadastrarUsuario.setOnClickListener(view -> {
             String nome = txtNomeUsuario.getText().toString();
@@ -63,7 +65,7 @@ public class telaCadastro extends AppCompatActivity {
 
 
                inserindoDados();
-               Toast.makeText(getBaseContext(), "Cadastrado com sucesso", Toast.LENGTH_SHORT).show();
+               finish();
 
            }else{
                String erro;

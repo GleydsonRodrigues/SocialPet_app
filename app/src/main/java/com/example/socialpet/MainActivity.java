@@ -1,6 +1,7 @@
 package com.example.socialpet;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         iniciarComponentes();
 
-
+        getSupportActionBar().hide();
         btnEntrar.setOnClickListener(view -> {
             String email = txtEmail.getText().toString();
             String senha = txtSenha.getText().toString();
@@ -55,9 +56,13 @@ public class MainActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
 
                 if (task.isSuccessful()){
+                    String erro = null;
 
-//                    Toast.makeText(getBaseContext(),"Logado com sucesso", Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(getBaseContext(),Navegacao.class));
+
+                        Intent intent = new Intent(getBaseContext(),Navegacao.class);
+                        startActivity(intent);
+                        finish();
+
                         
                 }else{
 
@@ -82,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onClickCadastrar(View view){
+    public void onClickCadastrar(View v){
         startActivity(new Intent(getBaseContext(),telaCadastro.class));
 
     }
