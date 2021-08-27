@@ -35,5 +35,8 @@
     <string name="title_notifications">Notificação</string>
     <string name="ConfirmarSenha">Confirmar Senha</string>
     <string name="labelCadastro">Cadastro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perfil">Perfil</string>
 
 </resources>
