@@ -1,19 +1,29 @@
 package com.example.socialpet.ui.home;
 
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 public class HomeViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+
 
     public HomeViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+
+        //Como Abrir um fragment dentro do outro
+
+//        FragmentManager fragmentTrasicao = getActivity().getSupportFragmentManager();
+//        FragmentTransaction transaction = fragmentTrasicao.beginTransaction();
+//
+//        addFoto addFoto = new addFoto();
+//        transaction.replace(R.id.nav_host_fragment_activity_navegacao, addFoto);
+//        transaction.addToBackStack(null);
+//        transaction.commit();
+
+        //Como Fechar uma Fragment
+
+//        FragmentManager fragmentTrasicao = getActivity().getSupportFragmentManager();
+//        FragmentTransaction transaction = fragmentTrasicao.beginTransaction();
+//        transaction.remove(addFoto.this);
+//        transaction.commit();
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
 }

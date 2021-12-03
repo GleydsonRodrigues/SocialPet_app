@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".cadastro.CadastroTipo">
+
+    <TextView
+        android:id="@+id/txtBemVindo3"
+        android:layout_width="193dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/txtBemVindo"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtSocialPet3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSocialPet3"
+        android:layout_width="223dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:gravity="center"
+        android:text="@string/txtSocialPet"
+        android:textColor="@color/black"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/txtApresentacao"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/lblTipo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblTipo"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/textTipo"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipo"
+        android:layout_width="199dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTipo">
+
+        <RadioButton
+            android:id="@+id/rdbPessoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:minHeight="48dp"
+            android:text="@string/tipoPessoal"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rdbLoja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:minHeight="48dp"
+            android:text="@string/tipoLoja"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rdbCanil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/tipoAdocao"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAvancar1"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/Avancar"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

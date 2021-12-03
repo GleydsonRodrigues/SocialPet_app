@@ -1,10 +1,10 @@
 package com.example.socialpet;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -18,6 +18,6 @@ public class SplashScreen extends AppCompatActivity {
             startActivity(new Intent(getBaseContext(), MainActivity.class));
             finish();
 
-        }, 4000);
+        }, 1500);
     }
 }

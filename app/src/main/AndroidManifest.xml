@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.socialpet">
+    package="com.example.socialpet" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
         android:fullBackupOnly="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_tres_ponto_round"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SocialPet">
+        android:theme="@style/Theme.SocialPet" >
+        <activity
+            android:name=".ModeloExibicao"
+            android:exported="true" />
+        <activity
+            android:name=".FotosAdocao"
+            android:exported="true" />
+        <activity
+            android:name=".cadastro.CadastrarFoto"
+            android:exported="true" />
+        <activity
+            android:name=".AddFotos"
+            android:exported="true" />
         <activity
             android:name=".Navegacao"
             android:exported="true"
@@ -22,7 +36,7 @@
             android:exported="true" />
         <activity
             android:name=".SplashScreen"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

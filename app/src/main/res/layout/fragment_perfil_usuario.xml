@@ -1,10 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PerfilUsuario">
+    tools:context=".ui.perfil.PerfilUsuario">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="33dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_baseline_exit_to_app_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_addFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgFotoPerfil"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/btn_background"
+        android:text="Adicionar Foto"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFotoPerfil" />
+
+    <Button
+        android:id="@+id/btnAddFoto2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_addFoto"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_background"
+        android:text="Doar"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFotoPerfil" />
+
+    <TextView
+        android:id="@+id/NomeUsuarioPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgFotoPerfil"
+        android:layout_alignStart="@+id/imgFotoPerfil"
+        android:layout_alignEnd="@+id/imgFotoPerfil"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="-3dp"
+        android:gravity="center"
+        android:text="@string/txtNomeUsuario"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imgFotoPerfil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgFotoPerfil"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="151dp"
+        android:alpha="1"
+        android:src="@drawable/modelocachorro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnEditarFoto"
+        android:layout_width="32dp"
+        android:layout_height="39dp"
+        android:layout_above="@+id/NomeUsuarioPerfil"
+        android:layout_alignEnd="@+id/imgFotoPerfil"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="-4dp"
+        android:alpha="2"
+        android:src="@drawable/editar"
+        app:layout_constraintBottom_toBottomOf="@+id/imgFotoPerfil"
+        app:layout_constraintStart_toEndOf="@+id/imgFotoPerfil" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="567dp"
+        android:layout_below="@+id/btnAddFoto2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_addFoto"
+        tools:listitem="@layout/modelo_perfil" />
+
+    <TextView
+        android:id="@+id/lblTipoUsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        android:text="TextView" />
+
+</RelativeLayout>

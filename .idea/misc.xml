@@ -4,20 +4,68 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/bg_btn2.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/bg_color.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/bg_foto.xml" value="0.10486111111111111" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/bk_contorno.xml" value="0.216796875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/btn_background.xml" value="0.1421875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/foto_cadastro.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.216796875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_cadastro_email.xml" value="0.10945945945945947" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_curtidas.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_curtidas_background.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_curtidas_foreground.xml" value="0.216796875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_email.xml" value="0.1421875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.216796875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_senha.xml" value="0.1421875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_tres_ponto_background.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_tres_ponto_foreground.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_tres_pontos_background.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/ic_tres_pontos_foreground.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/icone_usuario.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/lbl_background.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/logo_app_background.xml" value="0.119140625" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/pesquisa_background.xml" value="0.119140625" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/drawable/txt_background.xml" value="0.1421875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_add_fotos.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_add_fotos_outros.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_cadastrar_foto.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_fotos_adocao.xml" value="0.2046875" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_main2.xml" value="0.10703125" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_modelo_exibicao.xml" value="0.21" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_navegacao.xml" value="0.2046875" />
-        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_splash_screen.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.22" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_add_foto.xml" value="0.16" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_adocao.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_blank.xml" value="0.10703125" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_cad1.xml" value="0.22" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_cad2.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_cad3.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_cadastro1.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_cadastro2.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_cadastro_email.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_cadastro_foto.xml" value="0.18" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_cadastro_tipo.xml" value="0.22" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_dashboard.xml" value="0.2046875" />
-        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_home.xml" value="0.20457650273224043" />
-        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_perfil_usuario.xml" value="0.20457650273224043" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_notifications.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/fragment_perfil_usuario.xml" value="0.33" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/modelo_adocao.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/modelo_loja.xml" value="0.33" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/modelo_perfil.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/modelo_perfll.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/layout/modelo_postagem.xml" value="0.3019197207678883" />
         <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/mipmap-anydpi-v26/ic_curtidas_round.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/mipmap-anydpi-v26/ic_tres_ponto.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/mipmap-anydpi-v26/ic_tres_ponto_round.xml" value="0.216796875" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/mipmap-anydpi-v26/ic_tres_pontos.xml" value="0.119140625" />
+        <entry key="..\:/Users/Administrador/3DS/TCC_Manha/app/src/main/res/mipmap-anydpi-v26/ic_tres_pontos_round.xml" value="0.119140625" />
       </map>
     </option>
   </component>

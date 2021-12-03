@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.socialpet.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_Adocao"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/navigation_perfil"
-        android:name="com.example.socialpet.PerfilUsuario"
+        android:name="com.example.socialpet.ui.perfil.PerfilUsuario"
         android:label="@string/perfil"
         tools:layout="@layout/fragment_perfil_usuario" />
 </navigation>

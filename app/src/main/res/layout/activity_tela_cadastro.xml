@@ -7,127 +7,157 @@
     tools:context=".telaCadastro">
 
 
-    <LinearLayout
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout3"-->
+<!--        android:layout_width="414dp"-->
+<!--        android:layout_height="469dp"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/linearLayoutCadastro"-->
+<!--            android:layout_width="345dp"-->
+<!--            android:layout_height="106dp"-->
+<!--            android:layout_marginStart="25dp"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginEnd="25dp"-->
+<!--            android:layout_marginRight="25dp"-->
+<!--            android:orientation="vertical"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/imagedotopo">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textViewCadastro"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/roboto_condensed_light"-->
+<!--                android:text="@string/txtSocialPet"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="44sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtBemVindoCadastro"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="53dp"-->
+<!--                android:fontFamily="@font/roboto_light"-->
+<!--                android:text="@string/labelCadastro"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="30sp" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/TxtNomeUsuario"-->
+<!--            style="@style/textBox"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:autofillHints="AUTOFILL_HINT_USERNAME"-->
+<!--            android:background="@drawable/txt_background"-->
+<!--            android:drawableStart="@drawable/ic_cadastro_email"-->
+<!--            android:elevation="10dp"-->
+<!--            android:hint="@string/txtUsuario"-->
+<!--            android:inputType="textPersonName"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/linearLayoutCadastro"-->
+<!--            tools:ignore="TextContrastCheck" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/TxtEmailD"-->
+<!--            style="@style/textBox"-->
+
+<!--            android:autofillHints="AUTOFILL_HINT_USERNAME"-->
+<!--            android:background="@drawable/txt_background"-->
+<!--            android:drawableStart="@drawable/ic_email"-->
+<!--            android:elevation="10dp"-->
+<!--            android:hint="@string/txtEmail"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.75"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TxtNomeUsuario" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/TxtSenhaUsuario"-->
+<!--            style="@style/textBox"-->
+
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:autofillHints="AUTOFILL_HINT_PASSWORD"-->
+<!--            android:background="@drawable/txt_background"-->
+<!--            android:drawableStart="@drawable/ic_senha"-->
+<!--            android:elevation="10dp"-->
+<!--            android:hint="@string/txtSenha"-->
+<!--            android:inputType="textPassword"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TxtEmailD" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/TxtConfirmarSenha"-->
+<!--            style="@style/textBox"-->
+
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:autofillHints="AUTOFILL_HINT_PASSWORD"-->
+<!--            android:background="@drawable/txt_background"-->
+<!--            android:drawableStart="@drawable/ic_senha"-->
+<!--            android:elevation="10dp"-->
+<!--            android:hint="@string/ConfirmarSenha"-->
+<!--            android:inputType="textPassword"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/TxtSenhaUsuario" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/BtnCriar"-->
+<!--        style="@style/btnLoginCadastro"-->
+<!--        android:layout_width="351dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginBottom="28dp"-->
+<!--        android:elevation="8dp"-->
+<!--        android:text="@string/btnCriar"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/imgFotoCad"-->
+<!--        android:layout_width="177dp"-->
+<!--        android:layout_height="176dp"-->
+<!--        android:layout_marginStart="36dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:alpha="1"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"-->
+<!--        tools:srcCompat="@tools:sample/avatars" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnFotoCad"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="28dp"-->
+<!--        android:background="@drawable/btn_background"-->
+<!--        android:text="Adicionar Foto"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imgFotoCad"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />-->
+
+
+    <fragment
+        android:id="@+id/fragmentContainerCadastro"
+        android:name="com.example.socialpet.cadastro.CadastroTipo"
         android:layout_width="0dp"
-        android:layout_height="655dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints">
-
-        <View
-            android:id="@+id/imagedotopo"
-            style="@style/imgTopo"
-            android:layout_width="match_parent"
-            android:layout_height="173dp" />
-
-        <LinearLayout
-            android:id="@+id/linearLayoutCadastro"
-            android:layout_width="345dp"
-            android:layout_height="106dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginRight="25dp"
-            android:orientation="vertical"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imagedotopo">
-
-            <TextView
-                android:id="@+id/textViewCadastro"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_condensed_light"
-                android:text="@string/txtSocialPet"
-                android:textColor="@color/black"
-                android:textSize="44sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/txtBemVindoCadastro"
-                android:layout_width="match_parent"
-                android:layout_height="53dp"
-                android:fontFamily="@font/roboto_light"
-                android:text="@string/labelCadastro"
-                android:textColor="@color/black"
-                android:textSize="30sp" />
-
-        </LinearLayout>
-
-        <EditText
-            android:id="@+id/TxtNomeUsuario"
-            style="@style/textBox"
-
-            android:layout_marginTop="20dp"
-            android:autofillHints="AUTOFILL_HINT_USERNAME"
-            android:background="@drawable/txt_background"
-            android:drawableStart="@drawable/ic_cadastro_email"
-            android:elevation="10dp"
-            android:hint="@string/txtUsuario"
-            android:inputType="textPersonName"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayoutCadastro"
-            tools:ignore="TextContrastCheck" />
-
-        <EditText
-            android:id="@+id/TxtEmailD"
-            style="@style/textBox"
-
-            android:autofillHints="AUTOFILL_HINT_USERNAME"
-            android:background="@drawable/txt_background"
-            android:drawableStart="@drawable/ic_email"
-            android:elevation="10dp"
-            android:hint="@string/txtEmail"
-            android:inputType="textEmailAddress"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.75"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtNomeUsuario" />
-
-        <EditText
-            android:id="@+id/TxtSenhaUsuario"
-            style="@style/textBox"
-
-            android:layout_marginTop="24dp"
-            android:autofillHints="AUTOFILL_HINT_PASSWORD"
-            android:background="@drawable/txt_background"
-            android:drawableStart="@drawable/ic_senha"
-            android:elevation="10dp"
-            android:hint="@string/txtSenha"
-            android:inputType="textPassword"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtEmailD" />
-
-        <EditText
-            android:id="@+id/TxtConfirmarSenha"
-            style="@style/textBox"
-
-            android:layout_marginTop="24dp"
-            android:autofillHints="AUTOFILL_HINT_PASSWORD"
-            android:background="@drawable/txt_background"
-            android:drawableStart="@drawable/ic_senha"
-            android:elevation="10dp"
-            android:hint="@string/ConfirmarSenha"
-            android:inputType="textPassword"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtSenhaUsuario" />
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/BtnCriar"
-        style="@style/btnLoginCadastro"
-        android:layout_width="351dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="28dp"
-        android:elevation="8dp"
-        android:text="@string/btnCriar"
+        android:layout_height="0dp"
+        tools:layout="@layout/fragment_cadastro_tipo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

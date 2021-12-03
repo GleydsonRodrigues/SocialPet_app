@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".cadastro.CadastroEmail">
+
+    <TextView
+        android:id="@+id/txtBemVindo3"
+        android:layout_width="193dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/txtBemVindo"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtSocialPet3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSocialPet3"
+        android:layout_width="223dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:gravity="center"
+        android:text="@string/txtSocialPet"
+        android:textColor="@color/black"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/txtApresentacao"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/TxtNomeUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/TxtNomeUsuario"
+        style="@style/textBox"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="AUTOFILL_HINT_USERNAME"
+        android:background="@drawable/txt_background"
+        android:drawableStart="@drawable/ic_cadastro_email"
+        android:elevation="10dp"
+        android:hint="@string/txtUsuario"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/TxtEmailD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/TxtEmailD"
+        style="@style/textBox"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="AUTOFILL_HINT_USERNAME"
+        android:background="@drawable/txt_background"
+        android:drawableStart="@drawable/ic_email"
+        android:elevation="10dp"
+        android:hint="@string/txtEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TxtSenhaUsuario"
+        style="@style/textBox"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="AUTOFILL_HINT_PASSWORD"
+        android:background="@drawable/txt_background"
+        android:drawableStart="@drawable/ic_senha"
+        android:elevation="10dp"
+        android:hint="@string/txtSenha"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtEmailD" />
+
+    <EditText
+        android:id="@+id/TxtConfirmarSenha"
+        style="@style/textBox"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="AUTOFILL_HINT_PASSWORD"
+        android:background="@drawable/txt_background"
+        android:drawableStart="@drawable/ic_senha"
+        android:elevation="10dp"
+        android:hint="@string/ConfirmarSenha"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtSenhaUsuario" />
+
+    <Button
+        android:id="@+id/btnAvancar2"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/Avancar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
