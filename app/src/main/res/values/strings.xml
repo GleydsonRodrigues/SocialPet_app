@@ -56,5 +56,6 @@
     <string name="hint_descricao">Adicione uma descrição</string>
     <string name="adicionar_preco">Adicionar Preco</string>
     <string name="hint_preco">Adicione um preço para o Produto</string>
+    <string name="preco">Preço</string>
 
 </resources>
